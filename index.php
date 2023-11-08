@@ -2,6 +2,7 @@
 require_once "Car.php";
 require_once "Cat.php";
 require_once "Dog.php";
+require_once "Animal.php";
 
 // $myCar = new Car("Dacia", 19000);
 // $myCar->brand = "Dacia \n";
@@ -24,8 +25,15 @@ require_once "Dog.php";
 
 
 
-$Reksis = new Dog("Reksis", 6);
+// new Dog("Reksis", 6);
 
-    Dog::woof();
+//  Dog::woof();
+
+
+
+
+    $cat = new Cat();
+    Cat::eat();
+    Dog::eat();
 
 ?>

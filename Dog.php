@@ -17,6 +17,9 @@ class Dog{
     static function woof(){
         echo "woof!";
     }
+    static function eat(){
+        echo "I like bones!";
+    }
 }
 
 ?>
